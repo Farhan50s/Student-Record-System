@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-8 mx-auto text-center">
+        <h1 class="display-4 mb-4">Welcome to Student Record System</h1>
+        <p class="lead">Manage your student records efficiently with our web application.</p>
+        <div class="mt-5">
+            <a href="/" class="btn btn-primary btn-lg me-3">View Students</a>
+            <a href="/" class="btn btn-success btn-lg">Add New Student</a>
+        </div>
+    </div>
+</div>
+
+<div class="row mt-5">
+    <div class="col-md-4">
+        <div class="card text-center">
+            <div class="card-body">
+                <h5 class="card-title">Total Students</h5>
+                <h2 class="card-text"></h2>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card text-center">
+            <div class="card-body">
+                <h5 class="card-title">Manage Records</h5>
+                <p class="card-text">Add, edit, or delete student information with ease.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card text-center">
+            <div class="card-body">
+                <h5 class="card-title">Search & Filter</h5>
+                <p class="card-text">Quickly find students based on various criteria.</p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
